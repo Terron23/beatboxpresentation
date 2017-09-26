@@ -1,0 +1,126 @@
+.form-container {
+   
+  height: 30vh;
+  background-color: rgba(0, 0, 0, .8);
+display: flex;
+   -webkit-flex-direction: column; /* works with row or column */
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+    
+}
+
+.height {
+   margin-top: 85px;
+  
+   
+}
+
+.form-home {
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: solid 2px white;
+    font-size: 30px;
+    color:white;
+}
+
+.form-home:focus {
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: solid 2px #03C4EB;
+    font-size: 30px;
+}
+
+
+
+
+#hero .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.btn-get-started {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+  color: #fff;
+}
+
+#hero .btn-get-started:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-services:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+  { 
+    
+    .form-container {
+   
+  height: 30vh;
+  background-color: rgba(0, 0, 0, .8);
+display: flex;
+   -webkit-flex-direction: column; /* works with row or column */
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+    
+}
+
+.height {
+   margin-top: 55px;
+  
+   
+}
+
+
+.form-home {
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: solid 2px white;
+    font-size: 25px;
+    color:white;
+}
+
+.form-home:focus {
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: solid 2px #03C4EB;
+    font-size: 25px;
+}
+    
+    
+}
+
