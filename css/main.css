@@ -56,6 +56,20 @@ display: flex;
 }
 
 .btn-get-started {
+  background: transparent;
+  border: 2px solid #03C4EB;
+  color: black;
+}
+
+
+.btn-get-started:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+  color: white;
+}
+
+
+#hero .btn-get-started {
   background: #03C4EB;
   border: 2px solid #03C4EB;
   color: #fff;
@@ -129,6 +143,7 @@ display: flex;
 .studio {
     width:100%;
     height: 250px;
+    padding-bottom: 20px;
 }
 
 /****************************************
