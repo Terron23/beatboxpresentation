@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   display: table-cell;
   margin: 0;
   padding: 0;
@@ -484,7 +484,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../image/bg2.jpg) left top no-repeat;
+  background: url(../image/bg5.jpg) left top no-repeat;
+ 
 }
 
 #about .about-content {
@@ -508,7 +509,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../image/bg8.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -558,7 +559,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../image/bg5.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
